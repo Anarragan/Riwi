@@ -1,0 +1,36 @@
+
+.encabezado{
+    background-color: #769de4;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    clip-path: circle(50%);
+    width: 200px;
+    height: 200px;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.izquierda{
+    max-width: 100%;
+    height: auto;
+    background-color: #20c1d8;
+}
+.izquierda, .derecha{
+    flex: 1 1 45%;
+}
+
+.derecha{
+    width: 200px;
+    height: 200px;
+    font-size: 1.1em;
+    background-color: #e5efb0;
+}
+
